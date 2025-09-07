@@ -304,7 +304,7 @@ Issues and PRs are welcome. Please:
 
 ## Credits
 
-**by Saddam Al-Slfi** — *Queen Arwa University*
+**By Saddam Al-Slfi** — *Queen Arwa University*
 📧 **[saddamalsalfi@qau.edu.ye](mailto:saddamalsalfi@qau.edu.ye)**
 
 ---
