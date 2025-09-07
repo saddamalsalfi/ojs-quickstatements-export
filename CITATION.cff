@@ -1,0 +1,53 @@
+# Project: OJS QuickStatements Export
+# File:    CITATION.cff
+# (c) 2025 Saddam Al-Slfi / Queen Arwa University
+# License: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "OJS QuickStatements Export"
+abstract: |
+  An OJS/PKP plugin to export issues and articles to Wikidata via the
+  QuickStatements service. The plugin can auto-submit batches to the
+  QuickStatements API, and it de-duplicates by DOI using the Wikidata API
+  to update existing items instead of creating duplicates. It supports
+  Arabic/English localization, Ajax-based settings in modals, and OJS-native
+  backend layouts. Configuration includes journal QID, preferred languages,
+  QuickStatements username, optional batch name prefix, API token, and
+  an auto-submit toggle.
+
+type: software
+authors:
+  - given-names: "Saddam"
+    family-names: "Al-Slfi"
+    affiliation: "Queen Arwa University"
+    email: "saddamalsalfi@qau.edu.ye"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/saddamalsalfi/ojs-quickstatements-export"
+keywords:
+  - OJS
+  - PKP
+  - Wikidata
+  - QuickStatements
+  - DOI
+  - metadata
+  - scholarly-communication
+  - PHP
+  - plugin
+  - API
+version: "1.0.0"
+date-released: "2025-09-07"
+
+preferred-citation:
+  type: software
+  title: "OJS QuickStatements Export"
+  authors:
+    - given-names: "Saddam"
+      family-names: "Al-Slfi"
+      affiliation: "Queen Arwa University"
+  version: "1.0.0"
+  date-released: "2025-09-07"
+  url: "https://github.com/saddamalsalfi/ojs-quickstatements-export"

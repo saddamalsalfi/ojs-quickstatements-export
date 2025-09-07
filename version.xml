@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+     Project: OJS QuickStatements Export
+     File:    version.xml
+     Purpose: Plugin version metadata for OJS/PKP.
+     
+     (c) 2025 Saddam Al-Slfi / Queen Arwa University
+     License: GPL-3.0-or-later
+     SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+
+<version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../lib/pkp/dtd/pluginVersion.xsd">
+  <application>quickstatements</application>
+  <type>plugins.importexport</type>
+  <release>1.0.0</release>
+  <date>2025-09-03</date>
+  <lazy-load>true</lazy-load>
+  <class>QuickStatementsPlugin</class>
+  <category>importexport</category>
+  <name>quickstatements</name>
+  <install file="version.xml"/>
+  <compatibility>
+    <ojs min="3.5.0.0" max="3.5.x.x"/>
+  </compatibility>
+</version>

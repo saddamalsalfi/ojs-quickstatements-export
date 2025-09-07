@@ -1,0 +1,79 @@
+QuickStatements Export Plugin for OJS
+NOTICE.txt
+
+Copyright (c) 2025 Saddam Al-Slfi, Queen Arwa University
+Contact: saddamalsalfi@qau.edu.ye
+
+License
+-------
+This software is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).
+See the LICENSE file distributed with this plugin for the full license text.
+
+Attribution and Third-Party Credits
+-----------------------------------
+This plugin integrates with, and is distributed for use with, the following open-source projects and services:
+
+• Open Journal Systems (OJS) and the Public Knowledge Project (PKP) libraries
+  - © Public Knowledge Project. Licensed under GPL or compatible licenses.
+  - Includes components such as PKP’s Template/Dispatcher/Router layers.
+
+• Smarty Template Engine
+  - © Smarty developers. Licensed under the Smarty license / LGPL.
+
+• Laravel Illuminate Components (as included by PKP)
+  - © Laravel contributors. Licensed under the MIT License.
+
+• cURL / libcurl (used indirectly via PHP cURL extension)
+  - © Daniel Stenberg and contributors. Licensed under the curl license / MIT-compatible.
+
+• QuickStatements (Toolforge) API
+  - Community tool used to post batches of Wikidata commands.
+  - Hosted on Wikimedia Toolforge infrastructure.
+
+• Wikidata API
+  - Public API offered by Wikidata/Wikimedia for entity lookup and metadata.
+
+Trademarks, Names, and Affiliation
+----------------------------------
+• “Wikidata”, “Wikimedia”, and the Wikimedia logos are trademarks of the Wikimedia Foundation, Inc.
+• “Toolforge” is part of Wikimedia Cloud Services.
+• “QuickStatements” is a community tool (credit to its author/maintainers).
+• “Open Journal Systems (OJS)” and “Public Knowledge Project (PKP)” are names/trademarks of their respective owners.
+
+This plugin is an independent, community-developed integration. It is not affiliated with, sponsored by, or endorsed by the Wikimedia Foundation, the QuickStatements tool maintainers, or the Public Knowledge Project.
+
+Network and Data Use
+--------------------
+When the “Auto Submit to QuickStatements” option is enabled, this plugin can transmit exported metadata (including item labels, statements, and optional references) to:
+  https://quickstatements.toolforge.org/api.php
+
+The plugin may also perform read-only verification against:
+  https://www.wikidata.org/w/api.php
+
+Administrators are responsible for:
+• Reviewing institutional/network policies before enabling outbound API requests;
+• Configuring a descriptive and contactable HTTP User-Agent (already set by the plugin);
+• Keeping any QuickStatements API token confidential and rotating it if exposed.
+
+Privacy and Security Notice
+---------------------------
+• The QuickStatements token you configure is used solely to authenticate batch submissions to QuickStatements. Treat it as a secret credential.
+• Exported content reflects data present in your OJS instance (eg, titles, authors, DOIs) and any options you select (eg, include authors, references).
+• Review your journal’s privacy policy and applicable laws/regulations before exporting personal data to third-party services.
+
+Redistribution
+--------------
+If you redistribute this plugin (modified or unmodified), you must:
+• Retain this NOTICE file;
+• Retain the LICENSE file and all applicable copyright/trademark notices;
+• Clearly mark any changes you make and the date of those changes.
+
+NO WARRANTY
+-----------
+This software is provided “AS IS”, without warranty of any kind. See the LICENSE file (GPL-3.0-or-later) for details, including warranty disclaimers and limitations of liability.
+
+Contact
+-------
+Primary maintainer: Saddam Al-Slfi
+Email: saddamalsalfi@qau.edu.ye
+Institution: Queen Arwa University

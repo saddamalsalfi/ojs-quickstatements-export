@@ -1,0 +1,143 @@
+# Project: OJS QuickStatements Export
+# File:    locale.po (en)
+# Description: English translations for plugin UI strings.
+# (c) 2025 Saddam Al-Slfi / Queen Arwa University
+# License: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
+msgid ""
+msgstr ""
+"Project-Id-Version: quickstatements\n"
+"POT-Creation-Date: 2025-09-07 00:00+0000\n"
+"PO-Revision-Date: 2025-09-07 00:00+0000\n"
+"Language: en\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# ===== Plugin meta =====
+msgid "plugins.importexport.quickstatements.displayName"
+msgstr "Wikidata QuickStatements Export"
+
+msgid "plugins.importexport.quickstatements.description"
+msgstr "Export issues or articles to Wikidata using QuickStatements."
+
+msgid "plugins.importexport.quickstatements.settings"
+msgstr "Settings"
+
+# ===== Export form =====
+msgid "plugins.importexport.quickstatements.export.scope"
+msgstr "Export scope"
+
+msgid "plugins.importexport.quickstatements.export.scope.all"
+msgstr "All published submissions"
+
+msgid "plugins.importexport.quickstatements.export.scope.issues"
+msgstr "Specific issues (IDs)"
+
+msgid "plugins.importexport.quickstatements.export.scope.submissions"
+msgstr "Specific submissions (IDs)"
+
+msgid "plugins.importexport.quickstatements.export.scope.help"
+msgstr "Choose what to export."
+
+msgid "plugins.importexport.quickstatements.export.ids"
+msgstr "IDs"
+
+msgid "plugins.importexport.quickstatements.export.ids.help"
+msgstr "Only required when exporting specific issues or submissions."
+
+msgid "plugins.importexport.quickstatements.export.format"
+msgstr "Output format"
+
+msgid "plugins.importexport.quickstatements.export.format.tsv"
+msgstr "TSV (QuickStatements)"
+
+msgid "plugins.importexport.quickstatements.export.format.commands"
+msgstr "Commands (QuickStatements)"
+
+msgid "plugins.importexport.quickstatements.export.withLabels"
+msgstr "Include labels/descriptions"
+
+msgid "plugins.importexport.quickstatements.export.includeAuthors"
+msgstr "Include authors (P2093) + order"
+
+msgid "plugins.importexport.quickstatements.export.resolveAffil"
+msgstr "Try affiliations → Wikidata (P1416)"
+
+msgid "plugins.importexport.quickstatements.export.includeRefs"
+msgstr "Include references (P2860)"
+
+msgid "plugins.importexport.quickstatements.export.resolveRefs"
+msgstr "Resolve reference DOIs via Wikidata"
+
+msgid "plugins.importexport.quickstatements.export.updateIfExists"
+msgstr "Update existing item if DOI already has a QID"
+
+msgid "plugins.importexport.quickstatements.export.run"
+msgstr "Run export"
+
+# ===== Export result notices =====
+msgid "plugins.importexport.quickstatements.notice.okTitle"
+msgstr "The batch was submitted to QuickStatements successfully"
+
+msgid "plugins.importexport.quickstatements.notice.viewBatch"
+msgstr "View on QuickStatements"
+
+msgid "plugins.importexport.quickstatements.notice.noCommands"
+msgstr "No commands to submit (nothing was exported)"
+
+msgid "plugins.importexport.quickstatements.notice.errorTitle"
+msgstr "QuickStatements API error"
+
+msgid "plugins.importexport.quickstatements.notice.httpCode"
+msgstr "HTTP code"
+
+# ===== Settings page (NEW) =====
+msgid "plugins.importexport.quickstatements.settings.heading"
+msgstr "Wikidata / QuickStatements settings"
+
+msgid "plugins.importexport.quickstatements.settings.journalQid.label"
+msgstr "Journal QID (P1433)"
+
+msgid "plugins.importexport.quickstatements.settings.journalQid.example"
+msgstr "Example: Q124499613"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.label"
+msgstr "Preferred language codes"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.placeholder"
+msgstr "ar,en"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.help"
+msgstr "Comma-separated list, e.g. ar,en"
+
+msgid "plugins.importexport.quickstatements.settings.qsUsername.label"
+msgstr "QuickStatements username"
+
+msgid "plugins.importexport.quickstatements.settings.qsUsername.placeholder"
+msgstr "Saddam_Hussein_Alsalfi"
+
+msgid "plugins.importexport.quickstatements.settings.qsBatchPrefix.label"
+msgstr "Batch name prefix (optional)"
+
+msgid "plugins.importexport.quickstatements.settings.qsBatchPrefix.placeholder"
+msgstr "QAUSRJ"
+
+msgid "plugins.importexport.quickstatements.settings.qsToken.label"
+msgstr "QuickStatements API token"
+
+msgid "plugins.importexport.quickstatements.settings.qsToken.help"
+msgstr "Paste exactly as provided by QuickStatements. Used for automatic submit."
+
+msgid "plugins.importexport.quickstatements.settings.qsAutoSubmit.label"
+msgstr "Enable automatic submit to QuickStatements instead of downloading a file"
+
+msgid "plugins.importexport.quickstatements.settings.qsAutoSubmit.help"
+msgstr "When enabled, the generated commands are posted directly to QuickStatements."
+
+msgid "common.saved"
+msgstr "Settings saved successfully"

@@ -1,0 +1,145 @@
+# Project: OJS QuickStatements Export
+# File:    locale.po (ar)
+# Description: Arabic translations for plugin UI strings.
+# (c) 2025 Saddam Al-Slfi / Queen Arwa University
+# License: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
+
+
+msgid ""
+msgstr ""
+"Project-Id-Version: quickstatements\n"
+"POT-Creation-Date: 2025-09-07 00:00+0000\n"
+"PO-Revision-Date: 2025-09-07 00:00+0000\n"
+"Language: ar\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0?0:n==1?1:n==2?2:(n%100>=3 && n%100<=10)?3:(n%100>=11 && n%100<=99)?4:5;\n"
+
+# ===== Plugin meta =====
+msgid "plugins.importexport.quickstatements.displayName"
+msgstr "تصدير ويكي داتا (QuickStatements)"
+
+msgid "plugins.importexport.quickstatements.description"
+msgstr "تصدير الأعداد أو المقالات إلى ويكي داتا باستخدام QuickStatements."
+
+msgid "plugins.importexport.quickstatements.settings"
+msgstr "الإعدادات"
+
+# ===== Export form =====
+msgid "plugins.importexport.quickstatements.export.scope"
+msgstr "نطاق التصدير"
+
+msgid "plugins.importexport.quickstatements.export.scope.all"
+msgstr "كل المقالات المنشورة"
+
+msgid "plugins.importexport.quickstatements.export.scope.issues"
+msgstr "أعداد محددة (المعرّفات)"
+
+msgid "plugins.importexport.quickstatements.export.scope.submissions"
+msgstr "مقالات محددة (المعرّفات)"
+
+msgid "plugins.importexport.quickstatements.export.scope.help"
+msgstr "اختر ما تريد تصديره."
+
+msgid "plugins.importexport.quickstatements.export.ids"
+msgstr "المعرّفات"
+
+msgid "plugins.importexport.quickstatements.export.ids.help"
+msgstr "مطلوب فقط عند اختيار أعداد/مقالات محددة."
+
+msgid "plugins.importexport.quickstatements.export.format"
+msgstr "صيغة الإخراج"
+
+msgid "plugins.importexport.quickstatements.export.format.tsv"
+msgstr "TSV (لـ QuickStatements)"
+
+msgid "plugins.importexport.quickstatements.export.format.commands"
+msgstr "أوامر (QuickStatements)"
+
+msgid "plugins.importexport.quickstatements.export.withLabels"
+msgstr "تضمين العناوين/الوصف"
+
+msgid "plugins.importexport.quickstatements.export.includeAuthors"
+msgstr "تضمين المؤلفين (P2093) + الترتيب"
+
+msgid "plugins.importexport.quickstatements.export.resolveAffil"
+msgstr "محاولة تحويل الانتماءات إلى ويكي داتا (P1416)"
+
+msgid "plugins.importexport.quickstatements.export.includeRefs"
+msgstr "تضمين المراجع (P2860)"
+
+msgid "plugins.importexport.quickstatements.export.resolveRefs"
+msgstr "تحويل DOIs في المراجع عبر ويكي داتا"
+
+msgid "plugins.importexport.quickstatements.export.updateIfExists"
+msgstr "تحديث العنصر إذا كان للـDOI QID مسبقًا"
+
+msgid "plugins.importexport.quickstatements.export.run"
+msgstr "تنفيذ التصدير"
+
+# ===== Export result notices =====
+msgid "plugins.importexport.quickstatements.notice.okTitle"
+msgstr "تم إرسال الدفعة إلى QuickStatements بنجاح"
+
+msgid "plugins.importexport.quickstatements.notice.viewBatch"
+msgstr "متابعة الدفعة على QuickStatements"
+
+msgid "plugins.importexport.quickstatements.notice.noCommands"
+msgstr "لا توجد أوامر للإرسال (لا شيء للتصدير)"
+
+msgid "plugins.importexport.quickstatements.notice.errorTitle"
+msgstr "خطأ من واجهة QuickStatements API"
+
+msgid "plugins.importexport.quickstatements.notice.httpCode"
+msgstr "رمز الاستجابة"
+
+# ===== Settings page (NEW) =====
+msgid "plugins.importexport.quickstatements.settings.heading"
+msgstr "إعدادات ويكي داتا / QuickStatements"
+
+msgid "plugins.importexport.quickstatements.settings.journalQid.label"
+msgstr "QID الخاص بالمجلة (P1433)"
+
+msgid "plugins.importexport.quickstatements.settings.journalQid.example"
+msgstr "مثال: Q124499613"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.label"
+msgstr "أكواد اللغات المفضلة"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.placeholder"
+msgstr "ar,en"
+
+msgid "plugins.importexport.quickstatements.settings.prefLangs.help"
+msgstr "اكتبها مفصولة بفواصل، مثل: ar,en"
+
+msgid "plugins.importexport.quickstatements.settings.qsUsername.label"
+msgstr "اسم مستخدم QuickStatements"
+
+msgid "plugins.importexport.quickstatements.settings.qsUsername.placeholder"
+msgstr "Saddam_Hussein_Alsalfi"
+
+msgid "plugins.importexport.quickstatements.settings.qsBatchPrefix.label"
+msgstr "بادئة اسم الدفعة (اختياري)"
+
+msgid "plugins.importexport.quickstatements.settings.qsBatchPrefix.placeholder"
+msgstr "QAUSRJ"
+
+msgid "plugins.importexport.quickstatements.settings.qsToken.label"
+msgstr "رمز QuickStatements API"
+
+msgid "plugins.importexport.quickstatements.settings.qsToken.help"
+msgstr "يوضع كما زوّدك به QuickStatements. يُستخدم للإرسال التلقائي."
+
+msgid "plugins.importexport.quickstatements.settings.qsAutoSubmit.label"
+msgstr "تفعيل الإرسال التلقائي إلى QuickStatements بدلاً من تنزيل الملف"
+
+msgid "plugins.importexport.quickstatements.settings.qsAutoSubmit.help"
+msgstr "عند التفعيل سيتم إرسال الأوامر مباشرةً إلى QuickStatements."
+
+msgid "common.saved"
+msgstr "تم حفظ الاعدادات بنجاح"
